@@ -1,0 +1,26 @@
+/* Estilos para el formulario */
+div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

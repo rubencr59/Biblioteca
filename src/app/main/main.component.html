@@ -1,0 +1,15 @@
+<div class="main-container">
+    <app-login (enviarLogeo)="activeLogin($event)"></app-login>
+  
+    <div *ngIf="login" class="content-container">
+      <div class="sidebar">
+        <app-book-form (newBook)="addBook($event)"></app-book-form>
+        <app-filter></app-filter>
+      </div>
+  
+      <div class="main-content">
+        <app-book-list [books]="arrayBooks"></app-book-list>
+      </div>
+    </div>
+  </div>
+  

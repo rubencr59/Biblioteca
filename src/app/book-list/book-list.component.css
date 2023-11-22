@@ -1,0 +1,26 @@
+/* Estilos para la lista de libros */
+div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para resaltar en hover */
+  div:hover {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
